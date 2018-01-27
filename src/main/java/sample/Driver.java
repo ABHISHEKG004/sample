@@ -9,8 +9,6 @@ public class Driver {
 
 
     public static void check(ArrayList<Integer> arr){
-
-        //arr = new ArrayList<>();
         arr.add(234);
 
     }
