@@ -5,3 +5,5 @@
  password try
 
  git config --unset credential.helper
+
+ check
