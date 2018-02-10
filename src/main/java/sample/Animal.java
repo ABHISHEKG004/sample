@@ -10,8 +10,6 @@ public class Animal {
 
     String name;
     int age;
-//    Hashtable;
-//    ConcurrentHashMap;
 
     Animal(String name, int age){
         this.name = name;
