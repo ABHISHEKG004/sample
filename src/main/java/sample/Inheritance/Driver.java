@@ -1,6 +1,4 @@
-package sample;
-
-import java.util.ArrayList;
+package sample.Inheritance;
 
 /**
  * Created by abhishek.gupt on 18/01/18.

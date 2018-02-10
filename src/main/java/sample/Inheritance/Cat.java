@@ -1,4 +1,4 @@
-package sample;
+package sample.Inheritance;
 
 /**
  * Created by abhishek.gupt on 18/01/18.

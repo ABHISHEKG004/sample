@@ -1,4 +1,4 @@
-package sample;
+package sample.Inheritance;
 
 import java.util.Hashtable;
 import java.util.concurrent.ConcurrentHashMap;
