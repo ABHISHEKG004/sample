@@ -5,6 +5,16 @@ package test;
  */
 class Super
 {
+
+    public static void main(String[] args) {
+
+        int arr[] = {0,1,5,89,2};
+
+        for(int po : arr){
+            System.out.println(po);
+        }
+    }
+
 //    public int i = 0;
 //
 //    public Super(String text) /* Line 4 */
