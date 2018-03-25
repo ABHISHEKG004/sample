@@ -1,5 +1,6 @@
 package JavaConcepts.ConcurrentHashMap;
 
+import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -37,18 +38,37 @@ public class ConcurrentHashMapExample extends Thread
 
         /*Note :
         Behaviour of map content is unknown in case of concurrentHashMap because when printing
-        list it will show the list which was recently updated so can't predict the behaviour. In above case
-        o/p can be either {100=A, 101=B, 102=C, 103=D} or {100=A, 101=B, 102=C}
+        list it will show the list which was recently updated/latest snapshot so can't predict the behaviour.
+        In above case o/p can be either {100=A, 101=B, 102=C, 103=D} or {100=A, 101=B, 102=C}
         */
 
-        System.out.println(l);
+        //System.out.println(l);
 
         for (Object o : l.entrySet())
         {
             Object s=o;
             //System.out.println(s);
             //Thread.sleep(1000);
+            l.put(104,"ABHi");
         }
-        System.out.println(l);
+        //System.out.println(l);
+
+        Iterator iterator = l.keySet().iterator();
+
+       while(iterator.hasNext()){
+           l.put(105,"DOBAR");
+
+           if(iterator.next().equals(104))
+            iterator.remove();
+
+           System.out.println(iterator.next());
+       }
+
+
+        ConcurrentHashMap m = new ConcurrentHashMap();
+        m.put(1, 1);
+        Iterator i = m.entrySet().iterator();
+        m.remove(1);        // remove entry from map
+        System.out.println(i.next()); //still shows entry 1=1
     }
 }
