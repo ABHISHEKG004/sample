@@ -32,7 +32,7 @@ public class EasyUberCount {
             pairs.add(pr);
         }
 
-        pairs.sort((o1, o2) -> (o1.a < o2.a ? -1 : 1));
+//        pairs.sort((o1, o2) -> (o1.a < o2.a ? -1 : 1));
         Long curr = -1000000009L;
         Long count = 0L;
 

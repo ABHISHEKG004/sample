@@ -8,7 +8,8 @@ public class InvalidTypeException extends Exception {
         super();
     }
 
-    public InvalidTypeException(String message) {
+    public InvalidTypeException(String message)
+    {
         super(message);
     }
 

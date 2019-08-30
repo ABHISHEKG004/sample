@@ -12,7 +12,7 @@ public class SingleType<T>
 }
 
 // Driver class to test above
-class Main
+class Maino
 {
     public static void main (String[] args)
     {
