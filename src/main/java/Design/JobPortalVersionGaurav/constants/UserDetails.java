@@ -1,4 +1,4 @@
-package Design.JobPortal.constants;
+package Design.JobPortalVersionGaurav.constants;
 
 /**
  * Created by gaurav.kum on 13/12/17.

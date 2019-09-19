@@ -1,7 +1,7 @@
-package Design.JobPortal.service;
+package Design.JobPortalVersionGaurav.service;
 
-import Design.JobPortal.constants.UserDetails;
-import Design.JobPortal.model.User;
+import Design.JobPortalVersionGaurav.constants.UserDetails;
+import Design.JobPortalVersionGaurav.model.User;
 
 import java.util.*;
 

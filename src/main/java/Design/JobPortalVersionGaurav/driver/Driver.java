@@ -1,6 +1,6 @@
-package Design.JobPortal.driver;
+package Design.JobPortalVersionGaurav.driver;
 
-import Design.JobPortal.service.UIService;
+import Design.JobPortalVersionGaurav.service.UIService;
 
 /**
  * Created by gaurav.kum on 13/12/17.

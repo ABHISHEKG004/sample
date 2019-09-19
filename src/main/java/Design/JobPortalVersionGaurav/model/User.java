@@ -1,6 +1,6 @@
-package Design.JobPortal.model;
+package Design.JobPortalVersionGaurav.model;
 
-import Design.JobPortal.constants.UserDetails;
+import Design.JobPortalVersionGaurav.constants.UserDetails;
 
 import java.util.HashMap;
 import java.util.List;

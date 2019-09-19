@@ -1,6 +1,6 @@
-package Design.JobPortal.datastore;
+package Design.JobPortalVersionGaurav.datastore;
 
-import Design.JobPortal.model.User;
+import Design.JobPortalVersionGaurav.model.User;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package Design.JobPortal.exception;
+package Design.JobPortalVersionGaurav.exception;
 
 /**
  * Created by gaurav.kum on 10/12/17.
