@@ -1,7 +1,5 @@
 package com.design.lowlevel.mine.SwiggyAutoAssignment.DataStore;
 
-import Design.SwiggyAutoAssignment.Models.*;
-
 import com.design.lowlevel.mine.SwiggyAutoAssignment.Models.DeliveryExecutive;
 import com.design.lowlevel.mine.SwiggyAutoAssignment.Models.Item;
 import com.design.lowlevel.mine.SwiggyAutoAssignment.Models.Order;
