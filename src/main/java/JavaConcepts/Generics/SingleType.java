@@ -11,7 +11,7 @@ public class SingleType<T>
     public T getObject()  { return this.obj; }
 }
 
-// Driver class to test above
+// Driver class to others.test above
 class Maino
 {
     public static void main (String[] args)

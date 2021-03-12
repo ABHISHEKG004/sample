@@ -12,7 +12,7 @@ public class MainClass {
         setUserData(userHandler);
         userHandler.setHobbyIntegerMap();
 
-        System.out.println("hey test started");
+        System.out.println("hey others.test started");
 
 
 

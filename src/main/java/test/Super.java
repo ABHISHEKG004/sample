@@ -8,11 +8,14 @@ class Super
 
     public static void main(String[] args) {
 
-        int arr[] = {0,1,5,89,2};
+//        int arr[] = {0,1,5,89,2};
+//
+//        for(int po : arr){
+//            System.out.println(po);
+//        }
 
-        for(int po : arr){
-            System.out.println(po);
-        }
+        Object a = 342;
+    System.out.println(a.getClass().getName());
     }
 
     //ch

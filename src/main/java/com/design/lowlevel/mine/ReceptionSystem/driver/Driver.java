@@ -1,8 +1,8 @@
 package com.design.lowlevel.mine.ReceptionSystem.driver;
 
+import com.design.lowlevel.mine.ReceptionSystem.model.Customer;
 import com.design.lowlevel.mine.ReceptionSystem.service.Reception;
 import com.design.lowlevel.mine.ReceptionSystem.processor.RequestProcessor;
-import com.design.lowlevel.mine.ReceptionSystem.model.Customer;
 
 /**
  * Created by abhishek.gupt on 16/02/18.

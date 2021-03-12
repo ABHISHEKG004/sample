@@ -86,7 +86,7 @@ public class Solution {
 //            return maxsize;
 //        }
 
-        /* Driver program to test the above functions */
+        /* Driver program to others.test the above functions */
         public static void main(String[] args)
         {
             Solution sub;

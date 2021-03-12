@@ -75,7 +75,7 @@ public class LCA {
     }
 
 
-    // Driver program to test above functions
+    // Driver program to others.test above functions
     public static void main (String[] args)
     {
         /*   6

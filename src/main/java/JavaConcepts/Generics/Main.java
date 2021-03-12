@@ -1,7 +1,5 @@
 package JavaConcepts.Generics;
 
-import java.nio.BufferOverflowException;
-
 /**
  * Created by Abhishek gupta on 2019-05-29
  */
@@ -28,7 +26,7 @@ import java.nio.BufferOverflowException;
 //  }
 //}
 //
-//// Driver class to test above
+//// Driver class to others.test above
 //public class Main
 //{
 //  public static void main (String[] args)

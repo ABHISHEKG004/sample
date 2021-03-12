@@ -24,7 +24,7 @@ public class MultipleType<T, U>
     }
 }
 
-// Driver class to test above
+// Driver class to others.test above
 class Driver
 {
     public static void main (String[] args)
